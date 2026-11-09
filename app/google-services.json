@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1095698576244",
+    "project_id": "openplural",
+    "storage_bucket": "openplural.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095698576244:android:3e9865e7e299f120b33221",
+        "android_client_info": {
+          "package_name": "cc.webbiii.openplural.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUi5D31dX7p4poeMZrlW5Ym_D0xsI-40k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -32,12 +32,12 @@ class MainActivity : AppCompatActivity() {
         val notificationManager = getSystemService<NotificationManager>()!!
         notificationManager.createNotificationChannel(NotificationChannel(
             CHANNEL_CURRENT_FRONT,
-            "Current Front",
+            getString(R.string.channel_current_front),
             NotificationManager.IMPORTANCE_DEFAULT
         ))
         notificationManager.createNotificationChannel(NotificationChannel(
             CHANNEL_FRIEND_FRONT,
-            "Friend Front",
+            getString(R.string.channel_friend_front),
             NotificationManager.IMPORTANCE_DEFAULT
         ))
 

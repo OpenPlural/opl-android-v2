@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
         webView.settings.domStorageEnabled = true
         webView.settings.javaScriptEnabled = true
         webView.settings.javaScriptCanOpenWindowsAutomatically = true
-        webView.addJavascriptInterface(bindings, "OpenPluralApp")
+        webView.addJavascriptInterface(bindings, JAVA_SCRIPT_INTERFACE_NAME)
         webView.loadUrl(WEB_URL)
     }
 
